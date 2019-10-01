@@ -1,0 +1,79 @@
+.jumbotron{
+    background-color: #023252;
+    padding-bottom: 15em;
+}
+
+.jumbotron h1, h5{
+    color: aliceblue;
+    font-family: serif;
+}
+.jumbotron > .col-offset-md, .vertical-align{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: small;
+}
+h5{
+    font-family: initial;
+}
+.btn-lg{
+    border-radius: 0px;
+}
+.md-form{
+    margin:0px;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+}
+.owl-item {
+    padding-right: 3em;
+}
+.carousel-container{
+    width: 60%;
+    margin: auto;
+}
+.owl-carousel{
+    /* position: absolute; */
+    top: -10em;
+    left: 2em;
+}
+/* #second{
+    position: relative;
+} */
+/* #second > .container{
+    position: absolute;
+    top:18em;
+} */
+.text-center {
+    margin: auto;
+}
+.spacing-buffer { 
+    margin-top:20px; 
+    margin-bottom: 30px;
+}
+
+/* Tabs*/
+#tabs{
+	background: #023252;;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
